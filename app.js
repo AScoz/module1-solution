@@ -10,6 +10,7 @@ function LunchCheckController ($scope) {
   var messageNoData = "Please enter data first.";
   var messageOK = "Enjoy!";
   var messageKO = "Too much!";
+  
   $scope.displayMessage = function () {
     if (!$scope.lunchMenu){
         $scope.message = messageNoData
